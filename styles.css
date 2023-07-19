@@ -129,6 +129,11 @@ nav a:hover {
     background-color: #1B1B1B;
 }
 
+#projects a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .project-card {
     display: inline-block;
     background-color: #333333;
