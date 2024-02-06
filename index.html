@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonardo Šantl - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" />
 </head>
 <body>
     
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li> 
-            <li><a href="#resume">Resume</a></li>
+            <li><a href="#home">Domov</a></li>
+            <li><a href="#about">O meni</a></li>
+            <li><a href="#projects">Projekti</a></li>
+            <li><a href="#skills">Znanja in veščine</a></li> 
+            <li><a href="#resume">Življenjepis</a></li>
         </ul>
     </nav>
 
@@ -31,91 +37,103 @@
         <div class="about-container">
             <div class="about-image">
                 
-                <img src="itsme.jpg" alt="Leonardo">
+                <img src="img/leodev.jpeg" alt="Leonardo">
             </div>
             <div class="about-text">
-                <h3>Hello, I am Leonardo!</h3>
+                <h3>Heyyyy, sem Leonardo!</h3>
                 
                 <p>
-                    I am a developer with a basic knowledge of programming in JavaScript and C#. 
-                    Additionally, I have experience with SQL, WordPress, HTML, CSS, and tools like MS Office and Adobe Photoshop.
+                    Sem razvijalec z osnovnim znanjem programiranja v JavaScriptu in C#. Poleg tega imam izkušnje z SQL, 
+                    WordPressom, HTML-jem, CSS-jem ter orodji kot so MS Office in Adobe Photoshop.
                     
                 </p>
-                <p>I enjoy exploring the internet and use it daily.</p>
+                <p>Vsakodnevno uživam v raziskovanju interneta.</p>
                 <p>
-                    I have experience in editing and creating websites. Practical training at SI-TEAM provided me with some hands-on experience working with web technologies.
+                    Imam izkušnje pri urejanju in ustvarjanju spletnih strani.
                 </p>
                 <p>
-                    My goal is to become a more experienced developer and contribute to creating new solutions. I believe in continuous learning and upgrading my skills.
+                    Moj cilj je postati bolj izkušen razvijalec in prispevati k ustvarjanju novih rešitev. 
+                    Verjamem v kontinuirano učenje in nadgrajevanje svojih veščin.
                 </p>
                 <p>
-                    Apart from development, I am passionate about sports activities like soccer, hiking and outdoor fitness. I also really love travelling and going to music festivals.
+                    Poleg razvoja me navdušujejo tudi športne aktivnosti, kot so nogomet, pohodništvo in zunanja vadba. 
+                    Prav tako zelo rad potujem in obiskujem glasbene festivale.
                 </p>
                 <p>
-                    I am looking forward to opportunities for collaboration and co-creating projects, as well as further improving my skills.
+                    Veselim se priložnosti za sodelovanje in soustvarjanje projektov ter nadaljnjega izboljševanja svojih veščin.
                 </p>
                 
-                <p>Thank you for visiting my portfolio!</p>
+                <p>Hvala, ker ste obiskali moj portfelj!</p>
             </div>
         </div>
     </section>
     
+
+    
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>Moja dela</h2>
+        <div class="projectsAll">
+            
         
-        <div class="project-card">
-            <a href="https://github.com/Leo7nite/portfolio.git">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Portfolio</h3>
-                <p>
-                    A portfolio website, which tells a bit about me.
-                </p>
-            </a>
+            
+            
+        
+            <div class="project-card">
+                <a href="https://enaindvajset.netlify.app" class="project-item">
+                    <img src="img/enaindvajset.png" alt="21 - enaindvajset">
+                    <h3>21 - enaindvajest</h3>
+                    <p>
+                        Aplikacija za štetje košev pri igri 21 - enaindvajset, ki jo lahko igramo s prijatelji na igrišču.
+                    </p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://statuesque-cajeta-126f46.netlify.app/" class="project-item"target="_blank">
+                    <img src="img/nakupovalni-list.png" alt="Project 1">
+                    <h3>Nakupovalni list</h3>
+                    <p>
+                        Spletna aplikacija v katero si lahko zabeležimo, kaj moramo kupiti v trgovini.
+                    </p>
+                </a>
+            </div>
+            
+            
+            <div class="project-card" >
+                <a href="https://comfy-moxie-70deda.netlify.app/" class="project-item">
+                    <img src="img/kalkulator.png" alt="Project 3" >
+                    <h3>Kalkulator</h3>
+                    <p>
+                        Enostaven kalkulator.
+                    </p>
+                </a>
+            </div>
+            
         </div>
-        
-       
-        <div class="project-card">
-            <a href="https://github.com/Leo7nite/CS50course.git">
-                <img src="project1.jpg" alt="Project 2">
-                <h3>CS50 course exercises</h3>
-                <p>
-                    All exercises that I did, when I was doing Harvard's university CS50 course, which is available for free on the internet.
-                </p>
-            </a>
-        </div>
-        
-        
-        <div class="project-card" >
-            <a href="https://github.com/Leo7nite/simplecalc.git">
-                <img src="project2.jpg" alt="Project 3" >
-                <h3>Simple calculator</h3>
-                <p>
-                    It is a simple calculator application that I made for fun. 
-                </p>
-            </a>
-        </div>
-       
+   
     </section>
 
    
     <section id="skills">
-        <h2>Skills</h2>
+        <h2>Znanja in veščine</h2>
         
         <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>C#</li>
-            <li>Problem-solving</li>
-            <li>Communication</li>
+            <li>Reševanje problemov</li>
+            <li>Komunikacija</li>
         </ul>
+
+        
+        
+        
     </section>
 
     
     <section id="resume">
-        <h2>Resume</h2>
         
-        <a href="CV.pdf" download>Download Resume</a>
+        <a href="CV.pdf" download>Življenjepis</a>
     </section>
 
     
